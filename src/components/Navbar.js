@@ -22,7 +22,7 @@ class Navbar extends Component {
               <small id="account">{/* Account... */}</small>
             </small>
               {/* Return Account&Identicon... */}
-              <b className="text-white">0x0</b>
+              <b className="text-white">{this.props.account}</b>
           </li>
         </ul>
       </nav>

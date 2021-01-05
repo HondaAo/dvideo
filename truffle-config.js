@@ -14,8 +14,8 @@ module.exports = {
     ropsten: {
       provider: function() {
         return new HDWalletProvider(
-          privateKeys.split(','), // Array of account private keys
-          `https://ropsten.infura.io/v3/${process.env.INFURA_API_KEY}`// Url to an Ethereum Node
+          privateKeys.split(','),
+          `https://ropsten.infura.io/v3/${process.env.INFURA_API_KEY}`
         )
       },
       gas: 5000000,
